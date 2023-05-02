@@ -2,7 +2,7 @@ import { trace } from '@opentelemetry/api'
 
 export async function fetchGithubStars() {
   return await trace
-    .getTracer('nextjs-example')
+    .getTracer('with-opentelemetry-app-example')
     .startActiveSpan('fetchGithubStars', async (span) => {
       try {
         const res = await fetch('https://api.github.com/repos/vercel/next.js', {
