@@ -11,6 +11,7 @@ export default async function Page() {
 
   return (
     <>
+      <p>This is an app router page showing server actions</p>
       {/* @ts-ignore server actions types 🤷‍♂️ */}
       <form action={getStars}>
       <input type="text" name="library" defaultValue="vercel/next.js" />

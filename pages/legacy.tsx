@@ -14,6 +14,7 @@ export default function IndexPage({ stars }) {
   return (
     <>
       <p>Next.js has {stars} ⭐️</p>
+      <p>This page is rendered via legacy pages directory</p>
     </>
   )
 }

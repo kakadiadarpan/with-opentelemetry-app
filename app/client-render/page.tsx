@@ -19,9 +19,16 @@ export default async function Page() {
     fetchStars();
   }, []);
 
-  return stars ? (
+  return (
     <>
-      <p>Next.js has {stars} ⭐️</p>
+      <p>This is a page as client component</p>
+      {
+        stars ? (
+          <>
+            <p>Next.js has {stars} ⭐️</p>
+          </>
+        ) : null
+      }
     </>
-  ) : null;
+  )
 }
