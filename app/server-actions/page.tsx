@@ -11,6 +11,7 @@ export default async function Page() {
 
   return (
     <>
+      {/* @ts-ignore server actions types 🤷‍♂️ */}
       <form action={getStars}>
       <input type="text" name="library" defaultValue="vercel/next.js" />
 
