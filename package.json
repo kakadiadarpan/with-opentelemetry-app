@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@opentelemetry/api": "^1.4.1",
-    "@vercel/otel": "latest",
+    "@vercel/otel": "0.3.0",
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
